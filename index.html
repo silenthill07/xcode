@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xcode - خدمات التسويق الرقمي وتصميم الجرافيك والمونتاج</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            direction: rtl; /* Set text direction to right-to-left for Arabic */
+            text-align: right; /* Align text to the right */
+        }
+        .bg-hero {
+            background-image: url('https://placehold.co/1920x1080/1a202c/ffffff?text=Xcode+Creative+Solutions'); /* Placeholder for a hero background image */
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gray-800 bg-opacity-90 shadow-lg fixed w-full z-50 py-4">
+        <nav class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-3xl font-bold text-blue-500 hover:text-blue-400 transition duration-300">Xcode</a>
+            <ul class="flex space-x-6 space-x-reverse">
+                <li><a href="#home" class="text-gray-300 hover:text-blue-500 transition duration-300 text-lg">الرئيسية</a></li>
+                <li><a href="#services" class="text-gray-300 hover:text-blue-500 transition duration-300 text-lg">خدماتنا</a></li>
+                <li><a href="#about" class="text-gray-300 hover:text-blue-500 transition duration-300 text-lg">من نحن</a></li>
+                <li><a href="#contact" class="text-gray-300 hover:text-blue-500 transition duration-300 text-lg">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-hero min-h-screen flex items-center justify-center text-center p-4">
+        <div class="bg-black bg-opacity-70 rounded-2xl p-8 md:p-12 shadow-xl max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                أفكارك تنبض بالحياة، <span class="text-blue-500">مع Xcode</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                نحن نقدم حلولاً إبداعية في التسويق الرقمي، تصميم الجرافيك، والمونتاج لتحقيق رؤيتك.
+            </p>
+            <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-xl transition duration-300 transform hover:scale-105 inline-block">
+                اكتشف خدماتنا
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-5xl font-extrabold text-center text-white mb-16">خدماتنا الإبداعية</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+                <!-- Digital Marketing Service -->
+                <div class="bg-gray-800 rounded-2xl p-8 shadow-xl text-center card-hover transition duration-300">
+                    <div class="text-blue-500 text-6xl mb-6">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-4">التسويق الرقمي</h3>
+                    <p class="text-gray-300 text-lg">
+                        استراتيجيات تسويقية مبتكرة لزيادة ظهورك الرقمي، وجذب العملاء المحتملين، وتحقيق أعلى عائد على الاستثمار. يشمل ذلك تحسين محركات البحث (SEO)، وإعلانات الدفع بالنقرة (PPC)، والتسويق بالمحتوى، وإدارة وسائل التواصل الاجتماعي.
+                    </p>
+                </div>
+
+                <!-- Graphic Design Service -->
+                <div class="bg-gray-800 rounded-2xl p-8 shadow-xl text-center card-hover transition duration-300">
+                    <div class="text-blue-500 text-6xl mb-6">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-4">تصميم الجرافيك</h3>
+                    <p class="text-gray-300 text-lg">
+                        تصميمات بصرية فريدة وجذابة تعكس هوية علامتك التجارية. من الشعارات والهويات البصرية إلى المواد التسويقية وتصميمات الويب، نضمن لك تأثيرًا بصريًا لا يُنسى.
+                    </p>
+                </div>
+
+                <!-- Video Editing Service -->
+                <div class="bg-gray-800 rounded-2xl p-8 shadow-xl text-center card-hover transition duration-300">
+                    <div class="text-blue-500 text-6xl mb-6">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-4">المونتاج وإنتاج الفيديو</h3>
+                    <p class="text-gray-300 text-lg">
+                        تحويل لقطاتك الخام إلى قصص بصرية احترافية وجذابة. نقدم خدمات مونتاج الفيديو، إضافة المؤثرات البصرية، تحسين الصوت، وإنتاج الفيديوهات التسويقية والإعلانية والمحتوى الرقمي بجودة عالية.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-extrabold text-white mb-12">من نحن</h2>
+            <div class="max-w-4xl mx-auto bg-gray-900 rounded-2xl p-8 shadow-xl">
+                <p class="text-gray-300 text-xl leading-relaxed mb-6">
+                    في Xcode، نحن فريق من المبدعين والمتخصصين المتحمسين لتحويل الأفكار إلى واقع ملموس. نؤمن بقوة التصميم الجرافيكي الفعال، والتسويق الرقمي الذكي، والمونتاج الاحترافي في بناء علامات تجارية قوية والتأثير على الجماهير. مهمتنا هي تقديم حلول متكاملة تتجاوز توقعات عملائنا.
+                </p>
+                <p class="text-gray-300 text-xl leading-relaxed">
+                    نحن نلتزم بالجودة والإبداع والاحترافية في كل مشروع نقوم به، لضمان نجاح عملائنا في العالم الرقمي المتغير باستمرار.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-extrabold text-white mb-12">تواصل معنا</h2>
+            <div class="max-w-xl mx-auto bg-gray-800 rounded-2xl p-8 shadow-xl">
+                <p class="text-gray-300 text-2xl mb-8">
+                    هل أنت مستعد لنقل مشروعك إلى المستوى التالي؟ تواصل معنا اليوم!
+                </p>
+                <div class="space-y-6">
+                    <div class="flex items-center justify-center space-x-4 space-x-reverse">
+                        <i class="fas fa-envelope text-blue-500 text-3xl"></i>
+                        <a href="mailto:ahmed1elkholy1@gmail.com" class="text-gray-200 hover:text-blue-400 text-2xl transition duration-300">ahmed1elkholy1@gmail.com</a>
+                    </div>
+                    <div class="flex items-center justify-center space-x-4 space-x-reverse">
+                        <i class="fas fa-phone-alt text-blue-500 text-3xl"></i>
+                        <a href="tel:+201101467118" class="text-gray-200 hover:text-blue-400 text-2xl transition duration-300">01101467118</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8 mt-16 text-center text-gray-400 text-lg">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Xcode. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
